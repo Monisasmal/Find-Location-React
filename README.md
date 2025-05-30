@@ -32,7 +32,7 @@ An interactive React application that allows users to search for any location an
 
 **Clone the repository**
 
-git clone https://github.com/Monisasmal/location-map-app.git
+git clone https://github.com/Monisasmal/Find-Location-React.git
 cd location-map-app
 
 **Install dependencies**
