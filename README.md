@@ -1,12 +1,74 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**🌍 Location Search Map App**
 
-Currently, two official plugins are available:
+An interactive React application that allows users to search for any location and view it on a responsive Leaflet map. It also displays relevant location information with a modern, clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🚀 Features**
 
-## Expanding the ESLint configuration
+🔍 Search for any location by name or address
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📍 Dynamic map view with marker placement
+
+🧭 Displays location information (coordinates, address)
+
+💡 Responsive and mobile-friendly design
+
+🌐 Powered by React and Leaflet
+
+
+**📦 Tech Stack**
+
+⚛️ React
+
+🗺️ Leaflet
+
+📦 OpenStreetMap / Nominatim API (or any other geocoding service)
+
+🎨 CSS3
+
+
+**🛠️ Installation**
+
+**Clone the repository**
+
+git clone https://github.com/Monisasmal/location-map-app.git
+cd location-map-app
+
+**Install dependencies**
+
+npm install
+
+**Start the app**
+
+npm start
+
+**⚙️ How It Works**
+
+The user enters a location keyword (like "Delhi", "New York").
+
+The app sends a request to the geocoding API to retrieve coordinates.
+
+The Leaflet map centers on the location and shows a marker.
+
+Additional location data is shown in a styled info box.
+
+**📱 Responsive Design**
+
+✅ Desktop: Map and info side-by-side
+
+✅ Mobile: Map and info stacked vertically
+
+✅ Smooth layout using media queries
+
+**👨‍💻 Author**
+Manaswini Sasmal
+
+
+
+
+
+
+
+
+
